@@ -1,0 +1,4 @@
+.env
+php.ini
+composer.lock
+vender/
