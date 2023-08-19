@@ -1,4 +1,2 @@
 .env
-php.ini
-composer.lock
-vender/
+/node_modules
