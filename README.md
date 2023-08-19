@@ -2,11 +2,21 @@
 
 東京ドームのイベント情報をツイートする何か
 
-## How to use
-1. composerでライブラリのインストール: `composer install`
-2. .env.exampleを修正し、`.env`にリネームして保存
-3. cronジョブで適宜呼び出し
+## requirements
 
-## my profile
+node.js v18 or v20
 
-up-tri
+## setup on local
+
+```zsh
+npm install
+
+cp .env.example .env
+vi .env # <-- setup your twitter tokens.
+```
+
+## maintener
+
+up-tri<yaki-shake@up-tri.me>
+
+https://github.com/up-tri

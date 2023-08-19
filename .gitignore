@@ -1,4 +1,4 @@
-.env
-php.ini
-composer.lock
-vender/
+.env*
+!.env.example
+/node_modules
+deploy.sh
