@@ -2,10 +2,6 @@ require('dotenv').config();
 
 const functions = require('@google-cloud/functions-framework');
 const dayjs = require('dayjs');
-// const utc = require('dayjs/plugin/utc');
-// const timezone = require('dayjs/plugin/timezone');
-// dayjs.extend(utc);
-// dayjs.extend(timezone);
 
 const { getTheDayEvents } = require('./lib/tokyoDome');
 const { generateTweet, createTweet } = require('./lib/twitter');
